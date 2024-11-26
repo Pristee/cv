@@ -33,7 +33,7 @@
     }
 
     li:hover {
-        font-size: 14px;
+        text-decoration: underline;
     }
 
     #me {
@@ -58,5 +58,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    #junia {
+        background-color: transparent;
+    }
+
+    #junia:hover {
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .school {
+        background-color: transparent;
+    }
+
+    .school:hover {
+        padding: none;
     }
 }

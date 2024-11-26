@@ -74,11 +74,10 @@ p {
 li {
     margin-bottom: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition-duration: 500ms;
 }
 
 li:hover {
-    font-size: 27px;
+    text-decoration: underline 3px;
 }
 
 #navigation {
@@ -109,27 +108,27 @@ li:hover {
 }
 
 #topicMe:hover {
-    transform:skew(-20deg);
+    transform:skew(-10deg);
     text-decoration: underline;
 }
 
 #topicSkills:hover {
-    transform:skew(-20deg);
+    transform:skew(-10deg);
     text-decoration: underline;
 }
 
 #topicExperiences:hover {
-    transform:skew(-20deg);
+    transform:skew(-10deg);
     text-decoration: underline;
 }
 
 #topicCareer:hover {
-    transform:skew(-20deg);
+    transform:skew(-10deg);
     text-decoration: underline;
 }
 
 #topicContact:hover {
-    transform:skew(-20deg);
+    transform:skew(-10deg);
     text-decoration: underline;
 }
 
@@ -155,6 +154,8 @@ li:hover {
     margin-top: 5%;
     margin-bottom: 5%;
     transition-duration: 1300ms;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #mePicture:hover {
@@ -203,6 +204,8 @@ li:hover {
     margin-top: 5%;
     margin-bottom: 5%;
     transition-duration: 1300ms;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #skillsImage:hover {
@@ -249,6 +252,8 @@ li:hover {
     margin-top: 5%;
     margin-bottom: 5%;
     transition-duration: 1300ms;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #experiencesImage img {
@@ -296,6 +301,8 @@ li:hover {
     margin-top: 5%;
     margin-bottom: 5%;
     transition-duration: 1300ms;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #careerImage:hover {
@@ -321,14 +328,42 @@ li:hover {
     justify-content: center;
 }
 
+#junia {
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FD792C;
+    border-radius: 50%;
+    transition-duration: 1500ms;
+}
+
+#junia:hover {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .school {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     margin-top: 5%;
+    background-color: grey;
+    border-radius: 50%;
+    transition-duration: 1500ms;
+}
+
+.school:hover {
+    padding: 2%;
 }
 
 #contact {
     background-color: black;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     display: flex;
     justify-content: space-around;
 }
