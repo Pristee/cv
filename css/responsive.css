@@ -1,0 +1,50 @@
+@media all and (max-width:1024px) {
+    #scrollToTop {
+        position: fixed;
+        margin-top: 200%;
+        margin-left: 90%;
+        padding: 2%;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    header {
+        font-size: 60%;
+    }
+    
+    main {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    i {
+        font-size: 100%;
+    }
+
+    #me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #experiences {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #career {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
