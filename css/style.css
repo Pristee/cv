@@ -32,7 +32,9 @@ header {
     font-weight: 600;
     width: 100%;
     font-size: 200%;
-    background-color: black;
+    background-image: url(../images/waves.webp);
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     color: #FD792C;
     justify-content: right;
@@ -148,7 +150,9 @@ li:hover {
     margin-right: 5%;
     display: flex;
     justify-content: center;
-    background-color: #FD792C;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 15%;
     height: 90%;
     margin-top: 5%;
@@ -198,7 +202,9 @@ li:hover {
     margin-right: 5%;
     display: flex;
     justify-content: center;
-    background-color: #FD792C;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 15%;
     height: 90%;
     margin-top: 5%;
@@ -246,7 +252,9 @@ li:hover {
     margin-right: 5%;
     display: flex;
     justify-content: center;
-    background-color: #FD792C;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 15%;
     height: 90%;
     margin-top: 5%;
@@ -295,7 +303,9 @@ li:hover {
     margin-right: 5%;
     display: flex;
     justify-content: center;
-    background-color: #FD792C;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 15%;
     height: 90%;
     margin-top: 5%;
@@ -334,7 +344,9 @@ li:hover {
     padding-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #FD792C;
+    background-image: url(../images/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 50%;
     transition-duration: 1500ms;
 }
@@ -351,7 +363,9 @@ li:hover {
     margin-right: auto;
     width: 80%;
     margin-top: 5%;
-    background-color: grey;
+    background-image: url(../images/backgroundCareer.webp);
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 50%;
     transition-duration: 1500ms;
 }
@@ -361,11 +375,13 @@ li:hover {
 }
 
 #contact {
-    background-color: black;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     display: flex;
     justify-content: space-around;
+    background-image: url(../images/waves.webp);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 i {
